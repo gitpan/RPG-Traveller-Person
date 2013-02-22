@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 764d7a232d5b5aab0e79181e6dce543cd04892d2 Build.PL
+SHA1 ba8593f5d38dd63e1a8dd7a3eb87526667be45a0 Changes
+SHA1 8a8b95f683e44142cb17c142c1604cfb3e95432f INSTALL
+SHA1 a06528f602225b83744243733b686a769e65e840 LICENSE
+SHA1 89d5725ef7cbe0feefb699623f98973825b300c2 MANIFEST
+SHA1 b2309985bb098f5774a8232e245b7926c7639b3b META.yml
+SHA1 6be095ef95cf4b409c7f473e4b1cb599b75ac24f Makefile.PL
+SHA1 52424123dcbda66cad45bf53fb65a7c5f9e6c46a README
+SHA1 82a228bf4b0aaae5f2602f95eb7f6f5380903285 dist.ini
+SHA1 b0e91b8e0367566a8ee5072f50410e8dc1456ad8 lib/RPG/Traveller/Person.pm
+SHA1 51f5da9c645561b7e8d839804dd4e07cb9ccd3fb lib/RPG/Traveller/Person/Constants.pm
+SHA1 5549df880aab464a4c6c8945a0feb7d69cb362d2 lib/RPG/Traveller/Person/Constants.pm~
+SHA1 327bf5e538b5fb86b9aeaeef682e14544d8996f1 perltidy.LOG
+SHA1 c260b565c9884eee5741123ed3a1a594a4712308 t/ConstantsTest.t
+SHA1 1407d4a0307a83de214b6443305852616118cf93 t/FunctionalityCheck.t
+SHA1 19a732fc94c440becab75972c935c2e08f2cf006 t/PodCoverage.t
+SHA1 f214de96cfe8b70da71201ab8859bb32cbdafe1d t/author-critic.t
+SHA1 52f8153d160cb76d2ba52d0a9c8e8dff928145ee t/release-eol.t
+SHA1 ecd6305379975ecc5ce20f4c3e76bfcfe462e2d4 t/release-pod-coverage.t
+SHA1 00abcd56108cdbb170ef879c383c35784da7bd59 weaver.ini
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.13 (Cygwin)
+
+iQIcBAEBAgAGBQJRJ+VIAAoJEG3q6AJEOjrh6n4P/1e7KhywXgddr2WyMMAj6EY4
+ly6CDsoMnzHlz/mUOQ5Y3ltAilcFm7fWLnobEoRimd5H620Ww1pfZDMUHCOzuCCI
+ZwvAAQ4RS20WKdHqxqIrEaJSoNScro6/3XfIb7heljqb04VFtCCG0zHLBTYSOqRE
+DmJW/XE5+1PkpcYo9P7RZ0MCSeCQOKsAao7gPAJOMtXn3w8F7BKUvC0pJClqDn8n
+vwUhD3+b/b0DjBgn9lUdCg7ubV/or3dKwA2FvrRWRTE3qO6yCpH06F2CNzd6rL3i
+2XHxZdT8rqcKcOU10wELCcTlVx2Kmo37fYhMV/bPZdH8/R2Eg/SxuoKziRWXv17Q
+N6m/SNtwd6h1LfyTvRqRuTxp45I8fGnMNAXxp8MkKWkADtOAfIP5K5at5ZhCZ3Vt
+6K93YVHtPtaHC+gPgxXZixvuIDJDJuZ6Rxnt/eSPytxj8ATgUTW/6lkn4TUbQ2To
+nWBBlffMkfAkjeDndeMYMbTENQs7bDX0lzSWPrVM7FUw+yK8o1uU/VAydH3slxm2
+y3ECgjg62EWc4p2WT0Z2oGTAKeVrg44Z9vpfUVy0ZgvGSumY61D5cUOlA1Fcfwf9
+SeedPJyuZFQDIBB7Bql1Jaw6Uf1Yb4/vej5kb2pfcBGhuscw2+My+0KIsi9+q+vK
+4+oZH2eWcrA3JLYLMI4V
+=LjRD
+-----END PGP SIGNATURE-----
