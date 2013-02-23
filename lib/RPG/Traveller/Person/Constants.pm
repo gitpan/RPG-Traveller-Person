@@ -344,7 +344,7 @@ RPG::Traveller::Person::Constants - this module defines a host of constants used
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 METHODS
 
