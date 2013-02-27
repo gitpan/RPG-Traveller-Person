@@ -10,6 +10,7 @@ SIGNATURE
 dist.ini
 lib/RPG/Traveller/Person.pm
 lib/RPG/Traveller/Person/Constants.pm
+lib/RPG/Traveller/Person/Constants.pm~
 perltidy.LOG
 t/ConstantsTest.t
 t/FunctionalityCheck.t

@@ -3,7 +3,6 @@ use strict;
 use Moose;
 use RPG::Dice;
 use RPG::Traveller::Person::Constants qw/ :all /;
-use boolean qw/:all/;
 our $VERSION = "0.050";
 
 # -------------------------------------------------------------------------
@@ -26,11 +25,6 @@ has 'education'       => ( is => "rw", isa => "Int" );
 has 'social_standing' => ( is => "rw", isa => "Int" );
 has 'age'             => ( is => "rw", isa => "Int" );
 has 'career'          => ( is => "rw", isa => "Int" );
-has 'terms' => ( is => "rw", isa => "Int", default => sub { return 0; } );
-has 'alive' =>
-  ( is => "rw", isa => "boolean", default => sub { return true; } );
-has 'enlisted' =>
-  ( is => "rw", isa => "boolean", default => sub { return false; } );
 #
 # This method will be moved to a utility module
 
@@ -74,7 +68,7 @@ RPG::Traveller::Person - Base class for a family of (Mega)Traveller character ge
 
 =head1 VERSION
 
-version 0.501
+version 0.502
 
 =head1 SYNOPSIS
 
@@ -116,12 +110,6 @@ For each attribute (since we are using L<Moose>) has its own getter/setter metho
 =item age
 
 =item career
-
-=item alive
-
-=item enlisted
-
-=item terms
 
 =back
 

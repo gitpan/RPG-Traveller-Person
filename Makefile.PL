@@ -29,11 +29,10 @@ my %WriteMakefileArgs = (
     "Exporter" => 0,
     "Moose" => 0,
     "RPG::Dice" => 0,
-    "boolean" => 0,
     "constant" => 0,
     "strict" => 0
   },
-  "VERSION" => "0.501",
+  "VERSION" => "0.502",
   "test" => {
     "TESTS" => "t/*.t"
   }
