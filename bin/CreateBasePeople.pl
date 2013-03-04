@@ -43,7 +43,7 @@ CreateBasePeople.pl -- Create a bunch of "base" people. - CreateBasePeople.pl [-
 
 =head1 VERSION
 
-version 0.600
+version 1.010
 
 =head1 AUTHOR
 

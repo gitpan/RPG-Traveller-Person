@@ -20,7 +20,7 @@ my %module_build_args = (
     "Peter L. Berghold <cpan\@berghold.net>"
   ],
   "dist_name" => "RPG-Traveller-Person",
-  "dist_version" => "0.600",
+  "dist_version" => "1.010",
   "license" => "perl",
   "module_name" => "RPG::Traveller::Person",
   "recommends" => {},

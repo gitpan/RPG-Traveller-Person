@@ -3,7 +3,7 @@ use strict;
 use Moose;
 use RPG::Dice;
 use RPG::Traveller::Person::Constants qw/ :all /;
-our $VERSION = "0.050";
+our $VERSION = "1.010";
 
 # -------------------------------------------------------------------------
 #The Traveller game in all forms is owned by Far Future Enterprises.
@@ -25,6 +25,8 @@ has 'education'       => ( is => "rw", isa => "Int" );
 has 'social_standing' => ( is => "rw", isa => "Int" );
 has 'age'             => ( is => "rw", isa => "Int" );
 has 'career'          => ( is => "rw", isa => "Int" );
+has 'skills'          => ( is => "rw", isa => "HashRef" );
+
 #
 # This method will be moved to a utility module
 
@@ -72,7 +74,7 @@ RPG::Traveller::Person - Base class for a family of (Mega)Traveller character ge
 
 =head1 VERSION
 
-version 0.600
+version 1.010
 
 =head1 SYNOPSIS
 
