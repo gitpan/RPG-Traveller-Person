@@ -44,5 +44,16 @@ my $p;
 {
     ok( $p->age() == 18, "Age initialized" );
 }
+{
+    my $string = $p->upp2string();
+    ok( $string, "upp2string test" );
+    diag($string);
+}
+
+{
+    my $string = $p->toString();
+    ok( $string, "toString test" );
+    diag($string);
+}
 
 done_testing;

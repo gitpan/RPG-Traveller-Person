@@ -8,8 +8,7 @@ use Module::Build 0.3601;
 my %module_build_args = (
   "build_requires" => {
     "Module::Build" => "0.3601",
-    "RPG::Dice" => "1.1",
-    "Test::More" => "0.88",
+    "Test::More" => 0,
     "Test::Pod::Coverage" => 0
   },
   "configure_requires" => {
@@ -21,20 +20,26 @@ my %module_build_args = (
     "Peter L. Berghold <cpan\@berghold.net>"
   ],
   "dist_name" => "RPG-Traveller-Person",
-  "dist_version" => "0.502",
+  "dist_version" => "0.600",
   "license" => "perl",
   "module_name" => "RPG::Traveller::Person",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
+    "Data::Dumper" => 0,
     "Exporter" => 0,
+    "Getopt::Long" => 0,
     "Moose" => 0,
-    "RPG::Dice" => 0,
+    "RPG::Dice" => "1.1",
+    "Test::More" => "0.88",
+    "Test::Pod::Coverage" => 0,
     "constant" => 0,
     "perl" => "5.006",
     "strict" => 0
   },
-  "script_files" => []
+  "script_files" => [
+    "bin/CreateBasePeople.pl"
+  ]
 );
 
 

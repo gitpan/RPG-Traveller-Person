@@ -13,8 +13,7 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Peter L. Berghold <cpan\@berghold.net>",
   "BUILD_REQUIRES" => {
     "Module::Build" => "0.3601",
-    "RPG::Dice" => "1.1",
-    "Test::More" => "0.88",
+    "Test::More" => 0,
     "Test::Pod::Coverage" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -22,17 +21,23 @@ my %WriteMakefileArgs = (
     "Module::Build" => "0.3601"
   },
   "DISTNAME" => "RPG-Traveller-Person",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/CreateBasePeople.pl"
+  ],
   "LICENSE" => "perl",
   "NAME" => "RPG::Traveller::Person",
   "PREREQ_PM" => {
+    "Data::Dumper" => 0,
     "Exporter" => 0,
+    "Getopt::Long" => 0,
     "Moose" => 0,
-    "RPG::Dice" => 0,
+    "RPG::Dice" => "1.1",
+    "Test::More" => "0.88",
+    "Test::Pod::Coverage" => 0,
     "constant" => 0,
     "strict" => 0
   },
-  "VERSION" => "0.502",
+  "VERSION" => "0.600",
   "test" => {
     "TESTS" => "t/*.t"
   }

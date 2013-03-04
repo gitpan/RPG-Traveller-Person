@@ -41,21 +41,25 @@ sub initUPP {
 
 }
 
-sub uwp2string {
+sub upp2string {
     my $self = shift;
 
-    return spritnf(
+    return sprintf(
         "%s%s%s%s%s%s  Age: %d",
         int2alpha( $self->strength() ),
         int2alpha( $self->dexterity() ),
         int2alpha( $self->endurance() ),
-        int2alpha( $self->inteliigence() ),
+        int2alpha( $self->intelligence() ),
         int2alpha( $self->education() ),
         int2alpha( $self->social_standing() ),
         $self->age()
     );
 }
 
+sub toString {    # This needs to be overloaded in subordinate modules
+    my $self = shift;
+    return $self->upp2string();
+}
 1;
 
 __END__
@@ -68,7 +72,7 @@ RPG::Traveller::Person - Base class for a family of (Mega)Traveller character ge
 
 =head1 VERSION
 
-version 0.502
+version 0.600
 
 =head1 SYNOPSIS
 
@@ -85,9 +89,13 @@ version 0.502
 
 This method intializes the base UWP values and sets the age to 18
 
-=head2 uwp2string
+=head2 upp2string
 
 This method returns the current UWP and age values as a formatted string
+
+=head2 toString
+
+This method actually gets overloaded by subordinate modules in order.  This is to return the stats on a particular person generated.
 
 =head1 ATTRIBUTES
 
