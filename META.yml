@@ -29,4 +29,4 @@ requires:
   strict: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Auth=COWDAWG
-version: 1.011
+version: 1.012
