@@ -74,7 +74,7 @@ RPG::Traveller::Person - Base class for a family of (Mega)Traveller character ge
 
 =head1 VERSION
 
-version 1.012
+version 1.013
 
 =head1 SYNOPSIS
 
