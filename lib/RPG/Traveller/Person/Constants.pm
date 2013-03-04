@@ -2,7 +2,7 @@ package RPG::Traveller::Person::Constants;
 use strict;
 require Exporter;
 our @ISA     = qw(Exporter);
-our $VERSION = "1.010";
+our $VERSION = "1.011";
 
 # ABSTRACT:  this module defines a host of constants used for character generation
 #
@@ -344,7 +344,7 @@ RPG::Traveller::Person::Constants - this module defines a host of constants used
 
 =head1 VERSION
 
-version 1.010
+version 1.011
 
 =head1 METHODS
 

@@ -3,7 +3,7 @@ use strict;
 use Moose;
 use RPG::Dice;
 use RPG::Traveller::Person::Constants qw/ :all /;
-our $VERSION = "1.010";
+our $VERSION = "1.011";
 
 # -------------------------------------------------------------------------
 #The Traveller game in all forms is owned by Far Future Enterprises.
@@ -74,7 +74,7 @@ RPG::Traveller::Person - Base class for a family of (Mega)Traveller character ge
 
 =head1 VERSION
 
-version 1.010
+version 1.011
 
 =head1 SYNOPSIS
 
