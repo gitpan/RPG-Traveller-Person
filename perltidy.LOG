@@ -1,4 +1,4 @@
-perltidy version 20121207 log file on a cygwin system, OLD_PERL_VERSION=5.014002
+perltidy version 20121207 log file on a linux system, OLD_PERL_VERSION=5.010001
 Configuration and command line parameters for this run:
 
 To find error messages search for 'WARNING' with your editor

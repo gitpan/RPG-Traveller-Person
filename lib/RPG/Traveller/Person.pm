@@ -74,7 +74,7 @@ RPG::Traveller::Person - Base class for a family of (Mega)Traveller character ge
 
 =head1 VERSION
 
-version 1.013
+version 1.020
 
 =head1 SYNOPSIS
 
@@ -120,6 +120,12 @@ For each attribute (since we are using L<Moose>) has its own getter/setter metho
 =item age
 
 =item career
+
+=item alive
+
+=item enlisted
+
+=item terms
 
 =back
 

@@ -184,6 +184,7 @@ use constant VACCUM_SUIT               => 147;
 use constant VEHICLE                   => 148;
 use constant VICE                      => 149;
 use constant ZERO_G_ENVIRONMENT        => 150;
+use constant LAST_SKILL                => 150;
 
 # Conversion of integers to alpha
 use constant GAPPEDALPHA => qw/
@@ -227,7 +228,7 @@ our %EXPORT_TAGS = (
           SPECIAL_TECHNOLOGY SPINAL_MOUNTS STEALTH STEWARD STREETWISE
           SUBMACHINEGUN SURVEY SURVIVAL SWORD TACTICS TECHNICAL TRACKED_VEHICLE
           TRADER TURRET_WEAPONS VRF_GAUSE_GUN VACCUM_SUIT VEHICLE VICE
-          ZERO_G_ENVIRONMENT int2skill
+          ZERO_G_ENVIRONMENT LAST_SKILL int2skill
           ARMY BARBARIAN BELTER BUREAUCRAT DIPLOMAT DOCTOR FLYER HUNTER MARINE
           MERCHANT NAVY NOBLE OTHER PIRATE ROGUE SAILOR SCIENTIST SCOUT
           int2career GAPPEDALPHA NONGAPPEDALPHA int2alpha int2galpha
@@ -344,7 +345,7 @@ RPG::Traveller::Person::Constants - this module defines a host of constants used
 
 =head1 VERSION
 
-version 1.013
+version 1.020
 
 =head1 METHODS
 
